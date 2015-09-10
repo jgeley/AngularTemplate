@@ -21,7 +21,7 @@ Template for Angular apps used for hackathons
  - Use the Micro instance t1.micro
  - On the configure security group tab add a Custom TCP Rule on port 8080 which is where the app will run
  - Launch the instance and make sure to download the .pem
- - ssh -i <location-of-pem> ubuntu@<public-dns>
+ - ssh -i <location-of-pem> bitnami@<public-dns>
  - run "git clone https://github.com/jgeley/AngularTemplate"
  - go into AngularTemplate folder and run npm install
  - start mongodb
